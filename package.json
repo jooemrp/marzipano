@@ -16,7 +16,7 @@
   "scripts": {
     "test": "testem ci",
     "livetest": "testem",
-    "dev": "scripts/dev",
+    "dev": "node scripts/dev.js",
     "release": "scripts/release",
     "deploy": "scripts/deploy",
     "prepublishOnly": "scripts/prepublish"
@@ -30,12 +30,12 @@
   "devDependencies": {
     "browserify": "^17.0.0",
     "chai": "^4.2.0",
-    "jsdoc": "^3.6.6",
-    "lr-http-server": "^0.1.5",
+    "jsdoc": "^4.0.5",
+    "lr-http-server": "^0.0.2",
     "mocha": "^8.2.1",
     "sinon": "^9.2.2",
-    "testem": "^3.2.0",
+    "testem": "^2.12.0",
     "uglify-js": "^3.12.3",
-    "watchify": "^3.11.1"
+    "watchify": "^4.0.0"
   }
 }
